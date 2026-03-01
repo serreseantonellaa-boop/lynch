@@ -29,7 +29,7 @@ document.addEventListener('click', () => {
   audioContext.resume()
 }, { once: true })
 
-loadAudio('./Ozeip.wav')
+loadAudio('../../Ozeip.wav')
 
 // ─── LECTORES DE FRECUENCIA ────────────────────────────────────
 function getBass() {
